@@ -1,4 +1,5 @@
 
+
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
    background-image: url("imagess/gravel.png");
@@ -8,9 +9,11 @@ body {
 
 nav {
     float: right;
-    background-color: #4aaaa5;  
-    margin: 10px;
-    bottom: 80px;
+    padding: 10px;
+    width: 22%;
+    color: #4aaaa5;
+    position: relative;
+
 }
 .logo {
     background-color: #4aaaa5;
@@ -37,12 +40,7 @@ h2 {
     width: 100%;
 }
 
-#main-bio {
-    background-color: white;
-    width: 98%;
-    padding: 10px;
-   
-}
+
 #bio-image {
     float: left;
     height: 175px;
@@ -95,6 +93,8 @@ h2 {
     font-size: 20px;
     text-align: center;
     bottom: 60px;
+    width: 100%;
+    
 }
 
 footer {
@@ -110,3 +110,48 @@ footer {
     color: white;
     border-top: 7px solid #4aaaa5;
 }
+@media screen and (max-width: 980px) {
+    .container {
+        width: 100%;
+    }
+    .portfolio-item {
+        width: 70%;
+    }
+    .form {
+        width: 70%;
+    }
+    .item-name {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 959px) {
+
+}
+.item-name {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        
+    }
+    .item-name {
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 640px) {
+    nav {
+        float: right;
+       
+    }
+    .portfolio-item {
+        width: 78%;
+    }
+}
+
+
+
